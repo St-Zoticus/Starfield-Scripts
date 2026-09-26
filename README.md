@@ -55,6 +55,16 @@ Starfield\scripts\
 
 Thanks to `StarfieldCustom.ini`, the master patch file **`ZoticusPatch.txt`** will automatically run via `sStartingConsoleCommand` every time you boot the game. No manual console input is required for startup fixes or default baseline tweaks included in that file.
 
+### Included Scripts & Their Function
+
+- **altstart.txt** - Allows the user to set what alternate start they want.
+- **auth.txt** - Makes an inactive ship to be owned by the player character
+- **drug.txt** - Gies the player all the ingredients necessary to craft aurora if they have completed the quest with Yannik
+- **mag.txt** - Gives the player a magpulse rifle and 2,500 rounds of ammo
+- **research.txt** - Give the player all the necessary materials to complete all startings weapons research items
+- **SkipEntQuest.txt** - execute this script when at the door of the laboratory with the time wells. Allows you skip the entire quest and move on to confront the starborn
+- **unity.txt** - Go to the Unity at your leisure
+
 ### Manual Console Execution
 
 To run any specific script on demand while playing:
@@ -62,9 +72,9 @@ To run any specific script on demand while playing:
 1. Open the in-game developer console by pressing the tilde key (`~` or `@` depending on your keyboard layout).
 2. Type the following command and press **Enter**:
 
+
 ```text
 bat 'scripts\<script_name>'
-
 ```
 
 #### Example:
@@ -73,7 +83,6 @@ To manually run any script inside the `scripts` directory:
 
 ```text
 bat 'scripts\$SCRIPT_NAME'
-
 ```
 
 ---

@@ -22,7 +22,7 @@
 ;; SOFTWARE.
 ;; ============================================================================
 
-;; authorize a ship to be owned by the play character
+;; authorize a ship to be owned by the player character
 
 CallFunction"ObjectReference.BlockActivation" False False
 GetSpaceship 00000014
