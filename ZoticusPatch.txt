@@ -1,0 +1,47 @@
+;; ============================================================================
+;; MIT License
+;;
+;; Copyright (c) 2026 Zoticus (not the real saint)
+;;
+;; Permission is hereby granted, free of charge, to any person obtaining a copy
+;; of this software and associated documentation files (the "Software"), to deal
+;; in the Software without restriction, including without limitation the rights
+;; to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+;; copies of the Software, and to permit persons to whom the Software is
+;; furnished to do so, subject to the following conditions:
+
+;; The above copyright notice and this permission notice shall be included in all
+;; copies or substantial portions of the Software.
+;;
+;; THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+;; IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+;; FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+;; AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+;; LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+;; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+;; SOFTWARE.
+;; ============================================================================
+
+
+;; ========================================================
+;; a few settings that I hope make the game more enjoyable
+;; ========================================================
+
+;; change cost of registering ships
+setgs fSpaceshipRegisterValueMult 0.05
+;; better prices for things you sell
+setgs fVendorSellPriceMult 0.40
+;; change this to a smaller number to have vendor
+;; inventory and credits respawn faster
+setgs iDaysToRespawnVendor 1
+
+;; stealth fixes, not sure how well they work though
+;; as stealth in this game is complete garbage.
+;; If you'd like an easier time with stealth attacks
+;; then uncomment the sections below
+
+;; setgs fSneakEquippedWeightBase 10
+;; setgs fDeadReactionDistance 8
+;; setgs fSneakExteriorDistanceMult 1.0
+;; setgs fSneakVisualBaseValue -20
+;; setgs fDetectionViewCone 90
